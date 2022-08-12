@@ -60,9 +60,9 @@ if( nome.length < 5 ){
                                                     let somaNota = nota1 + nota2 + nota3 + nota4 + nota5 + nota6 + nota7 + nota8 + nota9 + nota10
                                                     let mediaNota = somaNota / 10
                                                         if(mediaNota >= 8 && presenca >= 6){
-                                                            alert(`Aluno ${nome} aprovado!`)
+                                                            alert(`A nota do aluno ${nome} é de ${mediaNota} e sua presenca de ${presenca} : Aluno provado!`)
                                                         }else{
-                                                            alert(`Aluno ${nome} reprovado!`)
+                                                            alert(`A nota do aluno ${nome} é de ${mediaNota} e sua presença de ${presenca} : Aluno reprovado!`)
                                                         }
                                                     }
                                                 }                                        
